@@ -229,10 +229,11 @@
 </body>
 <script src="Feedback/feedback.js"></script>
    
-    <script type="text/javascript">
-    $(document).ready(function() {
-        Feedback({h2cPath:'Feedback/html2canvas.js'});
-      }); 
+ <script type="text/javascript">
+        $.feedback({
+            ajaxURL: 'http://test.url.com/feedback',
+            html2canvasURL: 'js/html2canvas.js'
+        });
     </script>
 
 </html>
