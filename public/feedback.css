@@ -5,7 +5,7 @@
   right: 60px;
   width: auto;
 }
-#feedback-module p {  font-size: 13px }
+#feedback-module p { font-size: 13px }
 #feedback-note-tmp {
   width: 444px;
   height: auto;
@@ -15,7 +15,7 @@
   padding: 4px;
 }
 #feedback-note-tmp:focus,
-#feedback-overview-note:focus {  border: 1px solid #64b7cc }
+#feedback-overview-note:focus { border: 1px solid #64b7cc }
 #feedback-canvas {
   position: absolute;
   top: 0;
@@ -75,7 +75,7 @@
   background: rgba(0,0,0,0);
   cursor: default;
 }
-.feedback-helper[data-type="highlight"]>.feedback-helper-inner {  background: rgba(0,68,255,0.1) }
+.feedback-helper[data-type="highlight"]>.feedback-helper-inner { background: rgba(0,68,255,0.1) }
 #feedback-close {
   cursor: pointer;
   position: absolute;
@@ -93,7 +93,7 @@
   height: 30px;
   opacity: 0.65;
 }
-.feedback-wizard-close:hover {  opacity: 1 }
+.feedback-wizard-close:hover { opacity: 1 }
 #feedback-welcome-error,
 #feedback-overview-error {
   display: none;
@@ -103,7 +103,7 @@
   font-size: 13px;
   line-height: 29px;
 }
-#feedback-overview-error {  margin-top: 20px }
+#feedback-overview-error { margin-top: 20px }
 #feedback-highlighter {
   display: none;
   bottom: 100px;
@@ -180,7 +180,7 @@
   color: #fff;
 }
 #feedback-note-tmp,
-#feedback-overview-note {  resize: none }
+#feedback-overview-note { resize: none }
 #feedback-welcome,
 #feedback-highlighter,
 #feedback-overview,
@@ -287,7 +287,7 @@
   font-size: 13px;
   font-weight: normal;
 }
-#feedback-highlighter label.lower {  margin-top: 10px }
+#feedback-highlighter label.lower { margin-top: 10px }
 .feedback-buttons {
   float: right;
   margin-top: 20px;
@@ -298,8 +298,8 @@
   font-size: 15px;
   margin: 8px 0;
 }
-.feedback-additional {  margin-bottom: 20px!important }
-#feedback-overview-description {  float: left }
+.feedback-additional { margin-bottom: 20px!important }
+#feedback-overview-description { float: left }
 #feedback-overview-note {
   width: 314px;
   padding: 4px;
@@ -307,7 +307,7 @@
   outline: none;
   font-family: Arial,sans-serif;
 }
-#feedback-overview-screenshot {  float: right }
+#feedback-overview-screenshot { float: right }
 .feedback-screenshot {
   max-width: 396px;
   padding: 1px;
