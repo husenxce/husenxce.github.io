@@ -141,10 +141,10 @@ post.browser.cookieEnabled	= navigator.cookieEnabled;
 post.browser.onLine	= navigator.onLine;
 post.browser.platform	= navigator.platform;
 post.browser.userAgent	= navigator.userAgent;
-//post.browser.plugins	= [];
+post.browser.plugins	= [];
 
 $.each(navigator.plugins, function(i) {
-//post.browser.plugins.push(navigator.plugins[i].name);
+post.browser.plugins.push(navigator.plugins[i].name);
 });
 $('#feedback-browser-info').show();
 }
