@@ -157,6 +157,7 @@ header .intro-text .skills {
 }
 
 .navLinks li a{
+ color: #afa9b1 !important;
  background-color: #00688b !important;
 }
 
