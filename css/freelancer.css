@@ -168,13 +168,17 @@ color: #fff !important;
 background-color: #00688b !important;
 }
 
+.njs-library{
+ border-radius: 50%;
+}
+
 @-ms-keyframes wiggle{0%{-ms-transform:rotate(15deg);}50%{-ms-transform:rotate(-15deg);}100%{-ms-transform:rotate(15deg);}}
 @-moz-keyframes wiggle{0%{-moz-transform:rotate(15deg);}50%{-moz-transform:rotate(-15deg);}100%{-moz-transform:rotate(15deg);}}
 @-webkit-keyframes wiggle{0%{-webkit-transform:rotate(15deg);}50%{-webkit-transform:rotate(-15deg);}100%{-webkit-transform:rotate(15deg);}}
 @keyframes wiggle{0%{transform:rotate(15deg);}50%{transform:rotate(-15deg);}100%{transform:rotate(15deg);}}
-a.wiggle-me:hover{-ms-animation:wiggle .3s 2;-moz-animation:wiggle .3s 2;-webkit-animation:wiggle .3s 2;animation:wiggle .3s 2;   border-style: none;  animation-iteration-count: infinite; }
+.wiggle-me{-ms-animation:wiggle .3s 2;-moz-animation:wiggle .3s 2;-webkit-animation:wiggle .3s 2;animation:wiggle .3s 2;   border-style: none;  animation-iteration-count: infinite; }
 		
-a.logo:hover{
+.logo{
   animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
   border-style: none;
   transform: translate3d(0, 0, 0);
