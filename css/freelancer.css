@@ -35,9 +35,13 @@ h6 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+h3{
+    color: white !important;
+}
+
 p{
     font-family: Helvetica;
-    color: #888a91;
+    color: grey;
 }
 
 hr.star-light,
@@ -86,7 +90,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: black;
-    background-color: white;
+    background-color: grey;
 }
 
 header .container {
@@ -532,4 +536,14 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+.project{
+    background-color: lightgrey;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.intro p{
+    color: white !important;
 }
