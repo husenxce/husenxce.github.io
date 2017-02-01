@@ -134,7 +134,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding-top: 25px;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -143,14 +143,14 @@ header .intro-text .skills {
     .navbar-fixed-top .navbar-brand {
         font-size: 2em;
             color: white;
-
+        
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
     }
 
     .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
+        padding: 0 0;
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
@@ -169,7 +169,8 @@ header .intro-text .skills {
 .navLinks a:hover,
 .navLinks .active>a{
 color: #fff !important;
-background-color: #00688b !important;
+background-color: #00A8E8 !important;
+border-bottom: 6px solid #02FFF6;
 }
 
 .njs-library{
@@ -541,7 +542,7 @@ footer .footer-below {
 .project{
     background-color: lightgrey;
     padding: 50px;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
 .intro p{
