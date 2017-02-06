@@ -169,7 +169,6 @@ header .intro-text .skills {
 .navLinks a:hover,
 .navLinks .active>a{
 color: #fff !important;
-background-color: #00A8E8 !important;
 border-bottom: 6px solid #02FFF6;
 }
 
