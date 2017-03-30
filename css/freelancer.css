@@ -36,7 +36,7 @@ h6 {
 }
 
 h3{
-    color: white !important;
+    color: grey !important;
 }
 
 p{
@@ -90,7 +90,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: black;
-    background-color: grey;
+    background-color: #e2e2e2;
 }
 
 header .container {
@@ -161,15 +161,36 @@ header .intro-text .skills {
 }
 
 .navLinks li a{
- color: #afa9b1 !important;
- background-color: #00688b !important;
+ color: white !important;
+ background-color: black !important;
 }
 
-.navLinks a:focus,
-.navLinks a:hover,
-.navLinks .active>a{
+#home-link:focus,
+#home-link:hover,
+#home-link .active>a {
 color: #fff !important;
-border-bottom: 6px solid #02FFF6;
+border-bottom: 6px solid #FF0000;
+}
+
+#software-lnk:focus,
+#software-link:hover,
+#software-link .active>a {
+color: #fff !important;
+border-bottom: 6px solid #00E600;
+}
+
+#hardware-link:focus,
+#hardware-link:hover,
+#heardware-link .active>a {
+color: #fff !important;
+border-bottom: 6px solid #ffff00;
+}
+
+#blog-link:focus,
+#blog-link:hover,
+#blog-link .active>a {
+color: #fff !important;
+border-bottom: 6px solid #198CFF;
 }
 
 .njs-library{
@@ -222,11 +243,12 @@ border-bottom: 6px solid #02FFF6;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    background-color: #00688b;
+    background-color: black;
+    opacity: 0.7;
 }
 
 .blu {
-    background-color: #00688B;
+    background-color: #4495E5;
 }
 
 .navbar a:focus {
@@ -539,11 +561,11 @@ footer .footer-below {
 }
 
 .project{
-    background-color: lightgrey;
+    background-color: white;
     padding: 50px;
     border-radius: 2px;
 }
 
 .intro p{
-    color: white !important;
+    color: grey;
 }
