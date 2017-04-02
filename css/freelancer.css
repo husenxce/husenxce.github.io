@@ -162,35 +162,14 @@ header .intro-text .skills {
 
 .navLinks li a{
  color: white !important;
- background-color: darkgrey !important;
+ background-color: #585858 !important;
 }
 
-#home-link:hover,
-#home-link:focus,
-#home-link:active >a{
-color: #fff !important;
-border-bottom: 6px solid #FF0000;
-}
-
-#software-link:hover,
-#software-link:focus,
-#software-link:active a{
-color: #fff !important;
-border-bottom: 6px solid #00E600;
-}
-
-#hardware-link:hover,
-#hardware-link:focus,
-#hardware-link:active > a {
+.navLinks a:focus,
+.navLinks a:hover,
+.navLinks .active>a{
 color: #fff !important;
 border-bottom: 6px solid #198CFF;
-}
-
-#blog-link:hover,
-#blog-link:focus,
-#hardware-link:active >a{
-color: #fff !important;
-border-bottom: 6px solid  #ffff00;
 }
 
 .njs-library{
@@ -243,7 +222,7 @@ border-bottom: 6px solid  #ffff00;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    background-color: darkgrey;
+    background-color: #585858;
     opacity: 0.7;
 }
 
